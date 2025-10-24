@@ -43,7 +43,6 @@ fun searchForTextOccurrences(
                                 send(OccurrenceImpl(file, line, offset))
                             }
                         } catch (cause: MalformedInputException) {
-                            // ignore files with invalid encoding
                         }
                     }
                 }
