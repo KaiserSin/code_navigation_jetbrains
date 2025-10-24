@@ -1,0 +1,16 @@
+<idea-plugin>
+    id = "com.kaiserssin.code_navigator"
+    name = "Code Navigator"
+    <vendor>Artem Smirnov</vendor>
+    <description><![CDATA[
+        <p><b>Code Navigator</b> is a fast text search tool for your project directories.</p>
+        <p>See file path, line number, and column for every match. Search runs in parallel so the IDE stays responsive. Stop the job whenever you like and get clear error messages when something goes wrong.</p>
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Code Navigator"
+                anchor="left"
+                factoryClass="plugin.ApplicationToolWindow"/>
+    </extensions>
+</idea-plugin>
